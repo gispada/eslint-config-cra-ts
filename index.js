@@ -22,7 +22,8 @@ module.exports = {
         warnOnUnassignedImports: false
       }
     ],
-    'spaced-comment': 'warn',
+    'import/no-default-export': 'warn',
+    'spaced-comment': ['warn', 'always', { markers: ['/'] }],
     //'react/jsx-no-bind': ['error', { ignoreDOMComponents: true }] // Forbids passing functions to JSX props (wrap them in useCallback/method)
   }
 }
