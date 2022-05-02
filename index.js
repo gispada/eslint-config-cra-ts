@@ -22,6 +22,7 @@ module.exports = {
         warnOnUnassignedImports: false
       }
     ],
-    'spaced-comment': ['warn', 'always', { markers: ['/'] }]
+    'spaced-comment': ['warn', 'always', { markers: ['/'] }],
+    'react/self-closing-comp': 'warn',
   }
 }
