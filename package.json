@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-cra-ts",
-  "version": "1.0.1",
+  "name": "@stackhouseos/eslint-config-cra-ts",
+  "version": "1.0.2",
   "description": "ESLint configuration to add on a CRA project, with a few tweaks and sorted imports.",
   "main": "index.js",
   "author": "Gianluca Spada",
@@ -12,6 +12,7 @@
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
   }
 }
